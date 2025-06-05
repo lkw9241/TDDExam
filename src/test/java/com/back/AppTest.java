@@ -26,5 +26,15 @@ public class AppTest {
         assertEquals(30, rs);//검증식 -> rs값이 3인것을 보장합니다.
 
     }
+    @Test
+    @DisplayName("0+5 == 5")
+    void t3(){
+        App app= new App();
+        int rs = app.plus(0,5);
+
+
+        assertEquals(5, rs);//검증식 -> rs값이 3인것을 보장합니다.
+
+    }
 
 }
